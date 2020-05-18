@@ -18,6 +18,8 @@ p.position-absolute{
   opacity: 90%;
 }
 
+/* 
+Did not have enough time to make the media queries work properly :(
 @media (min-width: 768px) {
     .media{
         width:640px !important ;
@@ -30,4 +32,4 @@ p.position-absolute{
         width:768px !important ;
 
     }
- }
+ } */
