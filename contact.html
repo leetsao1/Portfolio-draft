@@ -9,6 +9,8 @@
     <link href="./css/index.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="./images/person.png" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -34,17 +36,42 @@
     <!--About Me Card-->
     <div class="card mx-auto bg-light mt-3 p-3" style="width: 18rem;">
         <h3 class="font-weight-bold border-bottom">Contact</h3>
-        <img src="./images/portrait.png" class="card-img-top" alt="A portrait of Lee Tsao">
-        <div class="card-body">
-          <p class="card-text">WRITE SOMETHING.</p>
-        </div>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Smith">
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Email</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary bg-dark border-dark">Submit</button>
+        </form>
+
+
+
+
+
       </div>
 
     <!-- Bottom Nav Bar -->
-    <nav class="navbar fixed-bottom justify-content-center bg-dark">
-        <h6 class= "text-white"> © Copyright</h6>
-      </nav>
-
+    <div class="fixed-bottom justify-content-center bg-dark">
+      <ul class="nav justify-content-center">
+        <li class="nav-item p-2">
+          <a href="https://www.linkedin.com/in/leetsao1/" target="_blank" class="fa fa-linkedin"></a>
+        </li>
+        <li class="nav-item p-2">
+          <a href="https://www.instagram.com/leetsao1/" target="_blank" class="fa fa-instagram"></a>
+        </li>
+      </ul>
+      <h6 class= "text-center text-white bg-dark p"> © Copyright</h6>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
